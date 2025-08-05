@@ -1,0 +1,12 @@
+{
+  "name": "weibo",
+  "appId": "70cf60f0-e279-4ea4-8169-11e01b4e7d10",
+  "author": "Yosorable",
+  "website": "https://github.com/Yosorable/weibo-minip",
+  "homepage": "index.html",
+  "navigationBarStatus": "display",
+  "icon": "icon.jpg",
+  "webServerEnabled": false,
+  "tintColor": "#F39801",
+  "iOS_disableTextInteraction": true
+}
