@@ -8,50 +8,6 @@ export interface HotItem {
 
 export const Api = {
   getHotList() {
-    // return fetch("https://s.weibo.com/top/summary?cate=realtimehot", {
-    //   headers: {
-    //     accept:
-    //       "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-    //     "accept-language": "zh-CN,zh;q=0.9",
-    //     priority: "u=0, i",
-    //     "sec-fetch-dest": "document",
-    //     "sec-fetch-mode": "navigate",
-    //     "sec-fetch-site": "same-origin",
-    //     "sec-fetch-user": "?1",
-    //     "upgrade-insecure-requests": "1",
-    //   },
-    //   referrer: "https://s.weibo.com/top/summary?cate=topicband",
-    //   referrerPolicy: "strict-origin-when-cross-origin",
-    //   body: null,
-    //   method: "GET",
-    //   mode: "cors",
-    //   credentials: "include",
-    // })
-
-    // return fetch("miniprequest://", {
-    //   body: JSON.stringify({
-    //     url: "https://s.weibo.com/top/summary?cate=realtimehot",
-    //     headers: {
-    //       accept:
-    //         "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-    //       "accept-language": "zh-CN,zh;q=0.9",
-    //       priority: "u=0, i",
-    //       "sec-fetch-dest": "document",
-    //       "sec-fetch-mode": "navigate",
-    //       "sec-fetch-site": "same-origin",
-    //       "sec-fetch-user": "?1",
-    //       "upgrade-insecure-requests": "1",
-    //       cookie:
-    //         "SUB=_2AkMQCMgEf8NxqwFRmf0WyGLnbYxyyg_EieKmVDnfJRMxHRl-yT9kqhYTtRB6O4jm67GaOcmm-3hjX4xBfYdYpSFxZUfa; SUBP=0033WrSXqPxfM72-Ws9jqgMF55529P9D9WWEalq6dmncPZfGsJ0cyQr4; _s_tentry=passport.weibo.com; Apache=1002614717760.4238.1733576500738; SINAGLOBAL=1002614717760.4238.1733576500738; ULV=1733576500749:1:1:1:1002614717760.4238.1733576500738:; UOR=,,www.baidu.com",
-    //       Referer: "https://s.weibo.com/top/summary?cate=topicband",
-    //       "Referrer-Policy": "strict-origin-when-cross-origin",
-    //     },
-    //     body: null,
-    //     method: "GET",
-    //   }),
-    //   method: "POST",
-    // })
-
     return fetch("miniphttps://s.weibo.com/top/summary?cate=realtimehot", {
       method: "GET",
       headers: {
