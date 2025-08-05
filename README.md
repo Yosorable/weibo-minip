@@ -2,7 +2,7 @@
 
 只用来看热搜的微博，无需登录
 
-![](preview.png)
+![image](preview.png)
 
 ## 安装
 
